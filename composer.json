@@ -1,5 +1,5 @@
 {
-    "name":        "abhinavsingh/jaxl",
+    "name":        "calref/jaxl",
     "type":        "library",
     "description": "Jaxl - Async, Non-Blocking, Event based Networking Library in PHP.",
     "keywords":    ["xmpp", "jabber", "http", "asynchronous", "non blocking", "event loop", "php", "jaxl", "abhinavsingh"],
@@ -15,6 +15,9 @@
     
     "require": {
         "php": ">=5.2.4"
+    },
+    "provide": {
+        "abhinavsingh/jaxl": "*"
     },
     
     "autoload": {
