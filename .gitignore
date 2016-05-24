@@ -4,3 +4,4 @@
 .pydevproject
 .settings/
 docs/_build
+/nbproject/private/
