@@ -91,7 +91,7 @@ class JAXLXmlStream {
 	public function parse($str) {
 		// There's something funky going on with the parser and PHP7.
 		// This fixes it...somehow
-		if (strlen($str) > 2 && str[0] == '<' && $str[1] == '?') {
+		if (strlen($str) > 2 && $str[0] == '<' && $str[1] == '?') {
 			$this->reset_parser();
 		}
 
